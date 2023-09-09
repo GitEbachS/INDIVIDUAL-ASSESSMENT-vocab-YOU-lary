@@ -1,24 +1,24 @@
 {
 "-NdMBmb_Ds13qIJgro1B": {
   "firebaseKey":"-NdMBmb_Ds13qIJgro1B",
-  "title":"Semantics",
-  "definition":"Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
-  "languageTech":"HTML",
+  "title":"Flexbox",
+  "definition":"Flexbox is a one-dimensional layout method for arranging items in rows or columns. Items flex (expand) to fill additional space or shrink to fit into smaller spaces.",
+  "languageTech":"CSS",
   "timeSubmitted":"9/6/2023, 11:00:43 PM",
   "uid":"eaIggdN4uHV77cSBPXQV7HGZEH33"
 },
 "-NdMBmbaVPJ4QPeodYSL": {
   "firebaseKey":"-NdMBmbaVPJ4QPeodYSL",
-  "title":"Flexbox",
-  "definition":"Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
-  "languageTech":"CSS",
+  "title":"Functions",
+  "definition":" A function in JavaScript is similar to a procedure—a set of statements that performs a task or calculates a value. It should take some input and return an output where there is some obvious relationship between the input and the output. To use a function, you must define it somewhere in the scope from which you wish to call it. ",
+  "languageTech":"JavaScript",
   "timeSubmitted":"2/6/2022, 1:00:40 PM",
   "uid":"eaIggdN4uHV77cSBPXQV7HGZEH33"
 },
 "-NdMBmbbh1c8gxtcEEgU": {
   "firebaseKey":"-NdMBmbbh1c8gxtcEEgU",
   "title":"Forms",
-  "definition":"Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+  "definition":" Forms are generally used when you want to collect data from the user.  It provides facilities to input text, number, values, email, password, and control fields such as checkboxes, radio buttons, submit buttons, etc.",
   "languageTech":"HTML",
   "timeSubmitted":"5/7/2023, 12:00:13 PM",
   "uid":"eaIggdN4uHV77cSBPXQV7HGZEH33"
@@ -26,15 +26,15 @@
 "-NdMBmbcfuutTLnu8GdI": {
   "firebaseKey":"-NdMBmbcfuutTLnu8GdI",
   "title":"Hover",
-  "definition":"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+  "definition":"The :hover selector is used to select elements when you mouse over them. Tip: The :hover selector can be used on all elements, not only on links.",
   "languageTech":"CSS",
   "timeSubmitted":"7/2/2023, 9:00:21 PM",
   "uid":"eaIggdN4uHV77cSBPXQV7HGZEH33"
 },
 "-NdMBmbdh1tLtqErUhpc": {
 "firebaseKey":"-NdMBmbdh1tLtqErUhpc",
-"title":"Intro CSS",
-"definition":"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+"title":"Header",
+"definition":"The header HTML element represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.",
 "languageTech":"HTML",
 "timeSubmitted":"4/8/2022, 7:15:49 AM",
 "uid":"eaIggdN4uHV77cSBPXQV7HGZEH33"
@@ -42,7 +42,7 @@
 "-NdMBmbeR0U5M4AUgYNC": {
   "firebaseKey":"-NdMBmbeR0U5M4AUgYNC",
   "title":"Background Color",
-  "definition":"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+  "definition":"The background-color property sets the background color of an element. The background of an element is the total size of the element, including padding and border (but not the margin).",
   "languageTech":"CSS",
   "timeSubmitted":"4/18/2023, 1:11:22 PM",
   "uid":"eaIggdN4uHV77cSBPXQV7HGZEH33"
@@ -50,29 +50,30 @@
 "-NdMBmbfygulAm46GD-2": {
   "firebaseKey":"-NdMBmbfygulAm46GD-2",
   "title":"Promises",
-  "definition":"In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.","languageTech":"JavaScript",
+  "definition":"A Promise is a proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.","languageTech":"JavaScript",
   "timeSubmitted":"2/16/2023, 8:10:13 AM",
   "uid":"eaIggdN4uHV77cSBPXQV7HGZEH33"
 },
 "-NdMBmbgLnEoCDNDhCqo": {
   "firebaseKey":"-NdMBmbgLnEoCDNDhCqo",
-  "title":"Paragraphs",
-  "definition":"Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
-  "languageTech":"CSS",
+  "title":"Arrays",
+  "definition":"JavaScript Array is a single variable that is used to store elements of different data types. Arrays are used when we have a list of items. An array allows you to store several values with the same name and access them by using their index number.",
+  "languageTech":"JavaScript",
   "timeSubmitted":"7/16/2023, 6:07:33 PM",
   "uid":"eaIggdN4uHV77cSBPXQV7HGZEH33"
 },
 "-NdMBmbh4OMxDtq8FkvG": {
   "firebaseKey":"-NdMBmbh4OMxDtq8FkvG",
   "title":"Class",
-  "definition":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.","languageTech":"CSS",
+  "definition":"The class attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name.",
+  "languageTech":"HTML",
   "timeSubmitted":"1/6/2023, 12:00:43 PM",
   "uid":"eaIggdN4uHV77cSBPXQV7HGZEH33"
 },
 "-NdMBmbjulHVnTaYr6dK": {
   "firebaseKey":"-NdMBmbjulHVnTaYr6dK",
   "title":"Footer",
-  "definition":"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+  "definition":"The footer tag defines the footer of a web page or a section. Usually, it contains copyright information, contact details, navigation links, etc.",
   "languageTech":"HTML",
   "timeSubmitted":"3/3/2023, 3:33:33 AM",
   "uid":"eaIggdN4uHV77cSBPXQV7HGZEH33"
