@@ -1,4 +1,7 @@
-import { createVocab, getVocab, updateVocab } from '../api/vocabData';
+/* eslint-disable eqeqeq */
+import {
+  createVocab, getVocab, searchVocab, updateVocab
+} from '../api/vocabData';
 import showVocab from '../pages/vocab';
 
 const navEvents = (user) => {
@@ -23,6 +26,20 @@ const navEvents = (user) => {
       });
       form.reset();
     }
+  });
+
+  document.querySelector('#search').addEventListener('keyup', () => {
+    const searchValue = document.querySelector('#search').value.toLowerCase();
+
+    searchVocab(searchValue, user.uid)
+      .then((search) => {
+        if (search.length) {
+          showVocab(search);
+        }
+      });
+    // if (e.keyCode === 13) {
+    //   document.querySelector('#search').value = '';
+    // }
   });
 };
 export default navEvents;

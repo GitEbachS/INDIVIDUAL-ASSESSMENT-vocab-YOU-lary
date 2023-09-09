@@ -79,7 +79,16 @@ const filterVocab = (techValue, uid) => new Promise((resolve, reject) => {
     resolve(filteredLanguage);
   }).catch(reject);
 });
+const searchVocab = (searchValue, uid) => new Promise((resolve, reject) => {
+  getVocab(uid).then((vocabArray) => {
+    const searchResults = vocabArray.filter((vocab) => (vocab.title.toLowerCase().includes(searchValue)
+    || vocab.definition.toLowerCase().includes(searchValue)
+    || vocab.languageTech.toLowerCase().includes(searchValue)
+    ));
+    resolve(searchResults);
+  }).catch(reject);
+});
 
 export {
-  getSingleVocab, getVocab, createVocab, updateVocab, deleteVocab, filterVocab
+  getSingleVocab, getVocab, searchVocab, createVocab, updateVocab, deleteVocab, filterVocab
 };

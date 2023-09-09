@@ -5,14 +5,15 @@ const viewVocab = (vocabObj) => {
   clearDom();
   const domString = `
               <div class="card" style="width: 18rem;">
-                  <div class="card-body">
-                  <i class="btn btn-danger fas trash-alt" id="vocabHome">Home</i>
-                    <h5 class="card-title">${vocabObj.title}</h5>
+                  <div class="card-body view">
+                    <h5 class="card-title showTitle">${vocabObj.title}</h5>
                     <p class="card-text">${vocabObj.definition}</p>
-                    <h5 class="card-title">${vocabObj.languageTech}</h5>
-                    <h5 class="card-title">${vocabObj.timeSubmitted}</h5>
-                    <i id="update-vocab-btn--${vocabObj.firebaseKey}" class="fas edit btn btn-info">Update</i>
-                    <i class="btn btn-danger  fas trash-alt" id="delete-vocab-btn--${vocabObj.firebaseKey}"></i>
+                    <h5 class="card-title lang">${vocabObj.languageTech}</h5>
+                    <h5 class="card-title time">${vocabObj.timeSubmitted}</h5>
+                    <div>
+                    <i class="btn btn-success  fas trash-alt" id="delete-vocab-btn--${vocabObj.firebaseKey}">Delete</i>
+                    <i class="btn btn-secondary fas trash-alt" id="vocabHome">Home</i>
+                    </div>
                   </div>
                 </div>`;
   renderToDOM('#view', domString);
