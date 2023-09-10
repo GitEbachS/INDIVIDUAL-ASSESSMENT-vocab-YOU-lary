@@ -49,6 +49,7 @@ Delete Button- Once clicked, it gets removed from the data
 
 
 #Video Walkthrough of Vocab App:
+https://www.loom.com/share/04ca38da168446c2adaa63017576ed50?sid=06482109-1890-41e8-be21-e8d192d6bc31
 
 ##Code Snippet:
 ![image](https://github.com/GitEbachS/INDIVIDUAL-ASSESSMENT-vocab-YOU-lary/assets/119310701/14938e31-30be-4662-b941-b44c84458459)
