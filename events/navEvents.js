@@ -37,9 +37,6 @@ const navEvents = (user) => {
           showVocab(search);
         }
       });
-    // if (e.keyCode === 13) {
-    //   document.querySelector('#search').value = '';
-    // }
   });
 };
 export default navEvents;
